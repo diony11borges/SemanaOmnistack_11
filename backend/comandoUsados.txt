@@ -1,0 +1,33 @@
+01. Criar o projeto Node
+$ npm init -y
+
+02. Instalando FrameWork Express no projeto
+$ npm install Express
+
+03. Criar arquivo "index.js" na raiz do projeto com esse conteudo:
+/*
+    const express = require('express');
+
+    const app = express();
+
+    app.use(express.json());
+
+    app.post('/users', (request, response) => {
+        const body = request.body;
+
+        console.log(body);
+
+        return response.json({
+            name: 'Diony Borges Ribeiro',
+            graduacao: 'Top Pica'
+        })
+    })
+
+    app.listen(3333);
+*/
+
+04. instalar nodemon e editar o package.json
+
+#FIGMA
+
+Parei em 39:00 minutos da Aula 02
